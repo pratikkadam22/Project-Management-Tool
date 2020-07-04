@@ -37,8 +37,8 @@ class SignUp extends Component {
                         <label htmlFor="lastName">Last Name</label>
                         <input type="text" id="lastName" onChange={this.handleChange}/>
                     </div>
-                    <div className="inpput-field">
-                    <button className="btn pink lighten-1 z-depth-0">Sign Up</button>
+                    <div className="input-field">
+                    <button className="btn orange darken-2 z-depth-0">Sign Up</button>
                     </div>
                 </form>
             </div>
