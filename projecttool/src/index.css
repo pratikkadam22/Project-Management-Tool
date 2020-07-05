@@ -10,8 +10,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: url(/img/bg.jpg) no-repeat;
   background-size: 100%;
-  background-position: bottom;
+  background-position: top;
   background-color: black;
+  background-attachment: fixed;
   min-height: 100%;
 }
 form {
