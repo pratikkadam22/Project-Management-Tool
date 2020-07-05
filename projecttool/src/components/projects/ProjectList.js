@@ -9,8 +9,8 @@ function ProjectList({projects}) {
             won't got to map */}
            { projects && projects.map(project => {
                return (
-                   <Link to={'/project/' + project.id}>
-                   <ProjecSummary project={project} key={project.id} />
+                   <Link to={'/project/' + project.id} key={project.id}>
+                   <ProjecSummary project={project} />
                    </Link>
                )
            })} 
